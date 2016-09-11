@@ -10,3 +10,5 @@ snd_bcm2835
 Save and close the file. Sound is enabled when you reboot the Raspberry Pi.
 
 sudo update-alternatives --config java
+
+test comment
