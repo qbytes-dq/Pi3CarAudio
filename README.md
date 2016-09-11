@@ -1,5 +1,5 @@
 # Pi3CarAudio
-Raspberry Pi Car audio
+# Raspberry Pi Car audio
 
 This project is for users to build a Raspberry Pi car radio.  Complenents included are:
 - FM Radio
@@ -14,3 +14,4 @@ This project is for users to build a Raspberry Pi car radio.  Complenents includ
 Not sure GPS and NAVIT are the best choice, I'm not able to find my home address or street (live here 10 years).
 Code will be 100% Python.
 
+Most of the sample projects I've come across use Ri2 and modify the OS.  This will be 100% script driven to enable multiple environments.
