@@ -4,3 +4,5 @@ dwc_otg.lpm_enable=0  console-tty3 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=
 ##-- splash.sh values added/updated
 
 ##-- splash.sh values added/updated
+
+test change
