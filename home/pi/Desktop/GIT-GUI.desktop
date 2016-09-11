@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0  
+Name=GIT-GUI
+Type=Application
+Exec=/home/pi/Desktop/.GIT-GUI.sh
+Terminal=false
+Icon=system-software-install
+Comment=GIT GUI shortcut
+Encoding=UTF-8  
+Categories=Application;
+
+# ~/Desktop/ssh_home.desktop file.
+
+# You may have to set the executable flag:
+# chmod +x ~/Desktop/ssh_home.desktop
