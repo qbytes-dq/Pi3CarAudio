@@ -1,0 +1,12 @@
+sudo dpkg-reconfigure tzdata 
+sudo dpkg-reconfigure -p low locales 
+sudo dpkg-reconfigure keyboard-configuration
+
+
+Enable Sound
+Raspberry Pi sound output does not work by default. To enable it, as superuser, open /etc/modules in a text editor. Add this line to the end of the file:
+
+snd_bcm2835 
+Save and close the file. Sound is enabled when you reboot the Raspberry Pi.
+
+sudo update-alternatives --config java
