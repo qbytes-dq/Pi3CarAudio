@@ -1,0 +1,10 @@
+#Creating and using environment variables in linux.
+sudo nano /etc/environment
+-> JAVA_HOME=/path/to/java
+
+# After update, reload
+source /etc/environment
+
+# Validate by printing variables
+echo $JAVA_HOME
+
