@@ -1,0 +1,6 @@
+dwc_otg.lpm_enable=0  console-tty3 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait logo.nologo quiet
+##-- gpsconfig.sh values loaded
+
+##-- splash.sh values added/updated
+
+##-- splash.sh values added/updated
