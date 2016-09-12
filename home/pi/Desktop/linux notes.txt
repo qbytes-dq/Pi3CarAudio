@@ -1,3 +1,6 @@
+https://www.youtube.com/watch?v=7l8KnTN6Hts
+
+#===================================================
 #Creating and using environment variables in linux (all users).
 sudo nano /etc/environment
 -> JAVA_HOME=/path/to/java
@@ -16,7 +19,8 @@ export JAVA_HOME=/path/to/java
 
 
 #===================================================
-
+# Digital Clock Format %X %p
+# Tooltip Format %a %D %r 
 
 #===================================================
 

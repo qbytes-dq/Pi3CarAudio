@@ -37,14 +37,14 @@ echo "avoid_warnings=1 #Pi3CarAudio"  >>/boot/config.txt
 #==============================
 #--> copy script to /etc/init.d
 #==============================
-cp /root/Pi3CarAudio/etc/init.d/splashscreen.sh /etc/init.d/splashscreen.sh
+cp ./etc/init.d/splashscreen.sh /etc/init.d/splashscreen.sh
 chmod a+x /etc/init.d/splashscreen.sh
 
 #==============================
 #--> copy png and mp4 to /etc/
 #==============================
-cp /root/Pi3CarAudio/etc/distracted/distracted4.png /etc/distracted.png
-cp /root/Pi3CarAudio/etc/models/Mercedes-Benz2.mp4  /etc/model.mp4
+cp ./etc/distracted/distracted4.png /etc/distracted.png
+cp ./etc/models/Mercedes-Benz2.mp4  /etc/model.mp4
 
 #==============================
 ## make script auto start

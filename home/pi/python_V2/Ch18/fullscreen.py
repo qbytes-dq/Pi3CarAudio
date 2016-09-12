@@ -34,8 +34,9 @@ if __name__ == '__main__':
 #    effect = pygame.mixer.Sound('./sounds/7.ogg')
 #    effect.play()
 #    pygame.mixer.music.load('/home/pi/python_V2/Ch18/sounds/0.ogg')
-    pygame.mixer.music.log('Major.mp3')
-    pygame.mixer.music.play(0)
+
+##    pygame.mixer.music.log('Major.mp3')
+##    pygame.mixer.music.play(0)
 
     while not _quit:
         for e in pygame.event.get():

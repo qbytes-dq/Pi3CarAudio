@@ -31,7 +31,9 @@ echo "i2c-dev"                  >>/etc/modules
 ##-------------------------------------------------
 apt-get -y install  i2c-tools
 apt-get -y install  python-smbus
-apt-get update
+
+#apt-get update
+bash ./root/install_scripts/update.sh
 
 adduser pi i2c
 

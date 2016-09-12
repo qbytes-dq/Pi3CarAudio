@@ -6,6 +6,8 @@ clear                           # clear terminal window
 
 
 ### sudo apt-get remove --purge wolfram-engine penguinspuzzle scratch dillo squeak-vm squeak-plugins-scratch sonic-pi idle idle3 netsurf-gtk netsurf-common
+### sudo apt-get remove --purge obconf openbox raspberrypi-artwork xarchiver xinit xserver-xorg xserver-xorg-video-fbdev x11-utils x11-common x11-session utils
+
 
 # dillo
 # gpicview
@@ -13,6 +15,11 @@ clear                           # clear terminal window
 # libre-office*
 echo "---> removing libre-office*"
 apt-get --assume-yes remove --purge libreoffice*
+
+# Mathematica 
+#echo "---> removing Mathematica"
+#apt-get --assume-yes remove --purge mathematica
+
 
 # minecraft-pi
 echo "---> removing minecraft-pi"
@@ -28,12 +35,14 @@ echo "---> removing penguinspuzzle"
 apt-get --assume-yes remove --purge penguinspuzzle
 
 # scratch
+
 # sonic-pi
+echo "---> removing sonic-pi"
+apt-get --assume-yes remove --purge sonic-pi
 
 # wolfram-engine
 echo "---> removing wolfram-engine"
 apt-get --assume-yes remove purge wolfram-engine
-
 
 ##----------------------------------------------
 ##----------------------------------------------

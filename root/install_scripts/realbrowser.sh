@@ -5,6 +5,8 @@ wget -qO - http://bintray.com/user/downloadSubjectPublicKey?username=bintray | s
 echo "deb http://dl.bintray.com/kusti8/chromium-rpi jessie main" | sudo tee -a /etc/apt/sources.list
 
 ## apt-get update
-/root/Pi3CarAudio/root/install_scripts/update.sh
-apt-get install -y chromium-browser rpi-youtube
+bash ./root/install_scripts/update.sh
 
+#apt-get install -y chromium-browser rpi-youtube
+apt-get install -y chromium-browser
+apt-get install -y rpi-youtube

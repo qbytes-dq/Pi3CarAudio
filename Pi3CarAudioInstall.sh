@@ -50,27 +50,29 @@ fi #else
 	print "     Downloading Scripts"
 	#
 	print "Current path: $PWD"
-	cd ~/
-	print "New path: $PWD"
+##	cd ~/
+##	print "New path: $PWD"
 
-if [[ -d /root/scripts ]]; then
-	print "/root/scripts exists!"
-else
-	mkdir scripts
-	print "/root/scripts created."
-fi
+#if [[ -d /root/scripts ]]; then
+#	print "/root/scripts exists!"
+#else
+#	mkdir scripts
+#	print "/root/scripts created."
+#fi
 
 echo "Script path: $PWD "
 
 #wget -O startup.mp3    http://electronics.qbytesworld.com/file.axd?file=/raspberrypi/scripts/Electrical_Sweep-Sweeper-Startup.mp3
 
-chmod u+x /root/Pi3CarAudio/root/install_scripts/*.sh
+
+
+chmod u+x ./root/install_scripts/*.sh
 #
 print "Google DNS"
-bash /root/Pi3CarAudio/root/install_scripts/dns.sh
+bash ./root/install_scripts/dns.sh
 
 print "Updating Pi 3"
-bash /root/Pi3CarAudio/root/install_scripts/update.sh
+bash ./root/install_scripts/update.sh
 
 ##-------------------------------------------------
 ##-------------------------------------------------
@@ -82,15 +84,15 @@ warn "A reboot is needed"
 
 ##-------------------------------------------------
 print "Installing DEV tools"
-bash /root/Pi3CarAudio/root/install_scripts/devtools.sh
+bash ./root/install_scripts/devtools.sh
 
 ##-------------------------------------------------
 print "Setting default values"
-bash /root/Pi3CarAudio/root/install_scripts/defaults.sh
+bash ./root/install_scripts/defaults.sh
 
 ##-------------------------------------------------
 print "Free Space - remove programs not needed"
-bash /root/Pi3CarAudio/root/install_scripts/freespace.sh
+bash ./root/install_scripts/freespace.sh
 
 ##-------------------------------------------------
 #print "Add Sound"
@@ -98,7 +100,7 @@ bash /root/Pi3CarAudio/root/install_scripts/freespace.sh
 
 ##-------------------------------------------------
 print "Real Browswer"
-bash /root/Pi3CarAudio/root/install_scripts/realbrowser.sh
+bash ./root/install_scripts/realbrowser.sh
 
 ##-------------------------------------------------
 print "BlueTooth"
@@ -106,7 +108,7 @@ print "BlueTooth"
 
 ##-------------------------------------------------
 print "GPS Config"
-bash /root/Pi3CarAudio/root/install_scripts/gpsconfig.sh
+bash ./root/install_scripts/gpsconfig.sh
 
 ##-------------------------------------------------
 ##-------------------------------------------------
@@ -118,7 +120,7 @@ warn "A reboot is needed"
 
 ##-------------------------------------------------
 print "Splash"
-bash /root/Pi3CarAudio/root/install_scripts/splash.sh
+bash ./root/install_scripts/splash.sh
 
 ##-------------------------------------------------
 ##-------------------------------------------------
@@ -126,7 +128,7 @@ bash /root/Pi3CarAudio/root/install_scripts/splash.sh
 ##-------------------------------------------------
 ##-------------------------------------------------
 warn "A reboot is needed"
-reboot
+##reboot
 
 ##-------------------------------------------------
 print "DONE!!!"
