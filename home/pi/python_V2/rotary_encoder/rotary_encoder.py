@@ -10,7 +10,7 @@ aPin = 20
 bPin = 21
 
 def encoderswitch(pin):
-    print "switch", pin
+    print ('switch', pin)
 
 def encodercount(pin):
     global val
@@ -48,7 +48,7 @@ GPIO.add_event_detect(aPin, GPIO.RISING, callback = encodercount, bouncetime=5) 
 #GPIO.add_event_detect(aPin, GPIO.BOTH, callback = encodercount)   # Encoder A
 #GPIO.add_event_detect(bPin, GPIO.BOTH, callback = encodercount)   # Encoder B
 
-print("Here we go! Press CTRL+C to exit")
+print ("Here we go! Press CTRL+C to exit")
 try:
     while 1:
         time.sleep(0.01)
@@ -57,4 +57,3 @@ except KeyboardInterrupt: # If CTRL+C is pressed, exit cleanly:
     GPIO.remove_event_detect(aPin) # remove event
     GPIO.remove_event_detect(cPin) # remove event
     GPIO.cleanup() # cleanup all GPIO
-     
