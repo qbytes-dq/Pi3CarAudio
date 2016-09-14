@@ -23,11 +23,14 @@ apt-get -y install git-gui
 # $ gitconfig --global user.email "your.email@address.here" 
 # $ gitconfig --global user.name  "your name here"
 #
+# or
+# nano .gitconfigy 
+#
 # Usage: 
 # $ git gui
 # -> clone existing
 # - -> source = https://github.com/qbytes-github/Pi3CarAudio
-# - -> dest   = /home/pi/github     (non existing directory)
+# - -> dest   = /home/pi/Pi3CarAudio     (non existing directory)
 # - -> full 
 # 
 # select files for commint
