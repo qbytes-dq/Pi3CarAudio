@@ -4,6 +4,8 @@
 clear           # clear terminal window
 
 : ' Comment: Raspbain Jesse does not use the config file like Wheezy
+Great help from:
+ http://raspberrypi.stackexchange.com/questions/39928/unable-to-set-default-input-and-output-audio-device-on-raspberry-jessie
 
 Below line to see avaliable sound cards
 $ aplay -l

@@ -83,6 +83,10 @@ warn "A reboot is needed"
 #->reboot
 
 ##-------------------------------------------------
+print "Enable USB Sound"
+bash ./root/install_scripts/sound.sh
+
+##-------------------------------------------------
 print "Installing DEV tools"
 bash ./root/install_scripts/devtools.sh
 
