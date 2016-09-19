@@ -14,6 +14,17 @@ apt-get -y install filezilla
 apt-get -y install dos2unix
 apt-get -y install cutecom
 
+
+#==============================
+#==============================
+#sudo apt-get update && sudo apt-get -y install build-essential nodejs nodejs-legacy npm redis-server git
+#git clone git://github.com/adafruit/Adafruit-WebIDE.git
+#cd Adafruit-WebIDE
+#mkdir tmp
+#npm config set tmp tmp
+#npm install
+#editor config/config.js (change port 80 to your port of choice)
+#nodejs server.js
 #==============================
 # Atom for Python development
 #==============================
